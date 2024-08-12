@@ -18,6 +18,11 @@ pip install rdkit==2023.3.2
 pip install rmsd==1.5.0
 ```
 
+## Preprocessing
+1. Make folder `logs/`.
+2. Download folder from [[here]](https://drive.google.com/file/d/1SZN7py721pN6Vo3Khwv1o839BJCAnlkM/view?usp=share_link) and unzip in `data/GEOM/`.
+3. Download folder from [[here]](https://drive.google.com/file/d/1AVXvmOL89IXUNh7CO4TUIfoZfSEVB28w/view?usp=share_link) and unzip in `trained_model/`.
+
 
 ## Train
 ```bash

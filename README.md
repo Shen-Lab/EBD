@@ -1,5 +1,9 @@
 # Equivariant Blurring Diffusion
+Pytorch implementation of [Equivariant Blurring Diffusion for Hierarchical Molecular Conformer Generation](https://openreview.net/forum?id=Aj0Zf28l6o) (NeurIPS 2024)
 
+Jiwoong Park, Yang Shen 
+
+License: GPL-3.0 (If you are interested in a different license, for example, for commercial use, please contact us.)
 
 ## Environments
 ```bash
@@ -40,6 +44,17 @@ python test.py ./trained_model/checkpoints/drugs_ckpt.pt
 
 ## Evaluation
 Use the provided conformers from the provided checkpoint or from your own trained model to evaluate conformers.
+
+
 ```bash
 python eval_covmat.py ./trained_model/samples/samples_all.pkl
+```
+
+## Acknowledgements
+The implementation cannot proceed without referencing https://github.com/ehoogeboom/e3_diffusion_for_molecules, https://github.com/MinkaiXu/GeoDiff, https://github.com/PattanaikL/GeoMol, https://github.com/gcorso/torsional-diffusion, https://github.com/THUNLP-MT/PS-VAE, https://github.com/wengong-jin/icml18-jtnn, https://github.com/zaixizhang/FLAG, https://github.com/gcorso/DiffDock, https://github.com/octavian-ganea/equidock_public, http://www.rdkit.org/docs/index.html, https://hunterheidenreich.com/posts/kabsch_algorithm/.
+
+
+## Citation
+
+```
 ```

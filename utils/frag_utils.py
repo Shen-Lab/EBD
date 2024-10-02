@@ -229,7 +229,6 @@ class MolTree(object):
 
 """
 Tree decomposition (JTVAE)
--> tree decomp.는 원자의 개수보다 더 많은 subgraph를 만들어낸다.
 """
 def tree_decomp(mol):
     n_atoms = mol.GetNumAtoms()
@@ -330,10 +329,6 @@ def brics_decomp_finer(mol):
         a2 = bond.GetEndAtom().GetIdx()
         cliques.append([a1, a2])
 
-    """
-    BRICS.FindBRICSBonds는 알고리즘이 cleave할 결합을 알려준다.
-    결과 res에는 fragment사이의 엣지를 구성하는 노드들의 index와 type이 존재한다.
-    """
     res = list(BRICS.FindBRICSBonds(mol))
     if len(res) == 0:
         return [list(range(n_atoms))], [Chem.MolToSmiles(mol)], [], []
@@ -426,10 +421,6 @@ def brics_decomp(mol):
         a2 = bond.GetEndAtom().GetIdx()
         cliques.append([a1, a2])
 
-    """
-    BRICS.FindBRICSBonds는 알고리즘이 cleave할 결합을 알려준다.
-    결과 res에는 fragment사이의 엣지를 구성하는 노드들의 index와 type이 존재한다.
-    """
     res = list(BRICS.FindBRICSBonds(mol))
     if len(res) == 0:
         return [list(range(n_atoms))], [Chem.MolToSmiles(mol)], [], []

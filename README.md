@@ -51,7 +51,7 @@ python eval_covmat.py ./trained_model/samples/samples_all.pkl
 ```
 
 ## Acknowledgements
-The implementation cannot proceed without referencing https://github.com/ehoogeboom/e3_diffusion_for_molecules, https://github.com/MinkaiXu/GeoDiff, https://github.com/PattanaikL/GeoMol, https://github.com/gcorso/torsional-diffusion, https://github.com/THUNLP-MT/PS-VAE, https://github.com/wengong-jin/icml18-jtnn, https://github.com/zaixizhang/FLAG, https://github.com/gcorso/DiffDock, https://github.com/octavian-ganea/equidock_public, http://www.rdkit.org/docs/index.html, https://hunterheidenreich.com/posts/kabsch_algorithm/.
+The implementation cannot proceed without referencing https://github.com/ehoogeboom/e3_diffusion_for_molecules, https://github.com/MinkaiXu/GeoDiff, https://github.com/PattanaikL/GeoMol, https://github.com/gcorso/torsional-diffusion, https://github.com/AaltoML/generative-inverse-heat-dissipation, https://github.com/THUNLP-MT/PS-VAE, https://github.com/wengong-jin/icml18-jtnn, https://github.com/zaixizhang/FLAG, https://github.com/gcorso/DiffDock, https://github.com/octavian-ganea/equidock_public, http://www.rdkit.org/docs/index.html, https://hunterheidenreich.com/posts/kabsch_algorithm/.
 
 
 ## Citation

@@ -62,7 +62,7 @@ class EquivariantHeatDissipation(nn.Module):
         t = t_steps / self.T
         pred_a, _ = self.encoder._forward(t, batch, x_a_b, m_mat@x_a_b, m_mat, bm_mat)        
 
-        # align prediction to less blurred atom position.  
+        # align prediction to gt atom position.  
         n_nodes_per_g = batch.num_nodes_per_graph
         pred__ = list(torch.split(pred_a, n_nodes_per_g.tolist(), 0))
         pred_batch = pad_sequence(pred__, batch_first=True, padding_value=0.)

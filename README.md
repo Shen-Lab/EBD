@@ -5,6 +5,8 @@ Jiwoong Park, Yang Shen
 
 License: GPL-3.0 (If you are interested in a different license, for example, for commercial use, please contact us.)
 
+![](./model.png)
+
 ## Environments
 ```bash
 conda env create -f environment.yml

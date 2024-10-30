@@ -1,5 +1,5 @@
 # Equivariant Blurring Diffusion
-Pytorch implementation of [Equivariant Blurring Diffusion for Hierarchical Molecular Conformer Generation](https://openreview.net/forum?id=Aj0Zf28l6o) (NeurIPS 2024)
+Pytorch implementation of [Equivariant Blurring Diffusion for Hierarchical Molecular Conformer Generation](https://arxiv.org/pdf/2410.20255v1) (NeurIPS 2024)
 
 Jiwoong Park, Yang Shen 
 

@@ -59,4 +59,12 @@ The implementation cannot proceed without referencing https://github.com/ehoogeb
 ## Citation
 
 ```
+@inproceedings{
+  park2024equivariant,
+  title={Equivariant Blurring Diffusion for Hierarchical Molecular Conformer Generation},
+  author={Jiwoong Park and Yang Shen},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+  year={2024},
+  url={https://openreview.net/forum?id=Aj0Zf28l6o}
+}
 ```
